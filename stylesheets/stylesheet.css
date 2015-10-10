@@ -15,6 +15,13 @@ a {
   a:hover {
     text-decoration: underline; }
 
+  }
+
+div {
+  transition-property: opacity, left, top, height;
+  transition-duration: 3s, 5s;
+}
+
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
