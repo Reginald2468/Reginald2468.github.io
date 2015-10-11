@@ -1,33 +1,27 @@
-#assets ChuckNorris.gif{
-    -moz-animation: bobble 2s infinite;
-    -webkit-animation: bobble 2s infinite;
-    animation: bobble 2s infinite;
-
-    margin-left: 0px;
-    margin-top: 15px;
+* {
+  box-sizing: border-box; }
+.chuck{
+  animation-duration: 1s;
+  animation-name: slidein;
+  position:inherit;
+  display: inline-block;
 }
-@keyframes bobble {
-    0% {
-        -moz-transform: translate3d(50px, 40px, 0px);
-        -webkit-transform: translate3d(50px, 40px, 0px);
-        transform: translate3d(50px, 40px, 0px);
+.norris {
+    animation-duration: 1s;
+    animation-name: slidein;
+    position: inherit;
+    display: inline-block;
+  }
 
-        animation-timing-function: ease-in;
-    }
-    50% {
-        -moz-transform: translate3d(50px, 50px, 0px);
-        -webkit-transform: translate3d(50px, 50px, 0px);
-        transform: translate3d(50px, 50px, 0px);
+@keyframes slidein{
+  from {
+    margin-left: 100%;
+  }
 
-
-        animation-timing-function: ease-out;
+    to {
+    margin-left: 0%;
     }
-    100% {
-        -moz-transform: translate3d(50px, 40px, 0px);
-        -webkit-transform: translate3d(50px, 40px, 0px);
-        transform: translate3d(50px, 40px, 0px);
-    }
-}
+  }
 body {
   padding: 0;
   margin: 5;
