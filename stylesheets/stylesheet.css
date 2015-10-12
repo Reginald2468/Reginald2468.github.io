@@ -1,13 +1,13 @@
 * {
   box-sizing: border-box; }
 .chuck{
-  animation-duration: 15s ;
+  animation-duration: 11s ;
   animation-name: slidein;
   position:inherit;
   display: inline-block;
 }
 .norris {
-    animation-duration: 15s;
+    animation-duration: 11s;
     animation-name: slidein;
     position: inherit;
     display: inline-block;
