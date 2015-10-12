@@ -1,13 +1,13 @@
 * {
   box-sizing: border-box; }
 .chuck{
-  animation-duration: 11s ;
+  animation-duration: 9s ;
   animation-name: slidein;
   position:inherit;
   display: inline-block;
 }
 .norris {
-    animation-duration: 11s;
+    animation-duration: 9s;
     animation-name: slidein;
     position: inherit;
     display: inline-block;
@@ -22,7 +22,11 @@
     margin-left: 0%;
     }
   }
-body {
+body
+{margin:0px;}
+
+
+{
   padding: 0;
   margin: 5;
   font-family: 'Bangers', cursive;
@@ -271,3 +275,4 @@ div {
 @media screen and (max-width: 42em) {
   .site-footer {
     font-size: 0.9rem; } }
+{color:#ff0000;}
